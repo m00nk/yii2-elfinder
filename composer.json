@@ -1,21 +1,20 @@
 {
-    "name": "mihaildev/yii2-elfinder",
+    "name": "m00nk/yii2-elfinder",
     "keywords": ["yii", "elfinder", "filemanager"],
-    "description": "Yii2 ElFinder",
-    "homepage": "https://github.com/MihailDev/yii2-elfinder",
+    "description": "Yii2 ElFinder based on mihaildev/yii2-elfinder",
+    "homepage": "https://github.com/m00nk/yii2-elfinder",
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "minimum-stability":"stable",
     "authors": [
         {
-            "name": "Mihail",
-            "email": "mihail.kucher@gmail.com",
-            "homepage": "https://github.com/MihailDev",
+            "name": "Dmitrij Sheremetjev",
+            "email": "m00nk1975@gmail.com",
             "role": "Developer"
         }
     ],
     "autoload": {
-        "psr-4": {"mihaildev\\elfinder\\": ""}
+        "psr-4": {"m00nk\\elfinder\\": ""}
     },
     "require": {
         "yiisoft/yii2": "*",
