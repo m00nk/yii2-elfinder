@@ -4,7 +4,7 @@
  * Time: 22:47
  */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 use Yii;
 
@@ -37,4 +37,4 @@ class LocalPath extends BasePath{
 
         return $options;
     }
-} 
+}

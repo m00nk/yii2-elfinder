@@ -4,7 +4,7 @@
  * Time: 14:13
  */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 use Yii;
 

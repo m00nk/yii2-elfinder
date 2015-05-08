@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
 */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 use Yii;
 use yii\filters\AccessControl;
 use yii\helpers\ArrayHelper;
@@ -24,7 +24,7 @@ use yii\web\JsExpression;
 /**
  * Class BaseController
  *
- * @package mihaildev\elfinder
+ * @package m00nk\elfinder
  */
 class BaseController extends Controller{
 	public $access = ['@'];
@@ -87,7 +87,7 @@ class BaseController extends Controller{
 
 			$options['getFileCallback'] = new JsExpression('function(file){ '.
 				'if (window!=window.top) {var parent = window.parent;}else{var parent = window.opener;}'.
-				'if(parent.mihaildev.elFinder.callFunction('.Json::encode($_GET['callback']).', file))'.
+				'if(parent.m00nk.elFinder.callFunction('.Json::encode($_GET['callback']).', file))'.
 				'window.close(); }');
 		}
 
@@ -105,4 +105,4 @@ class BaseController extends Controller{
 
 		return $this->renderFile(__DIR__."/views/manager.php", ['options'=>$this->getManagerOptions()]);
 	}
-} 
+}

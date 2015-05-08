@@ -121,8 +121,8 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'cmdresize'    : 'Размер изображения',
 			'cmdsort'      : 'Сортировать',
 			'cmdnetmount'  : 'Mount network volume',
-			
-			/*********************************** buttons ***********************************/ 
+
+			/*********************************** buttons ***********************************/
 			'btnClose'  : 'Закрыть',
 			'btnSave'   : 'Сохранить',
 			'btnRm'     : 'Удалить',
@@ -131,7 +131,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'btnNo'     : 'Нет',
 			'btnYes'    : 'Да',
 			'btnMount'  : 'Подключить',  // added 18.04.2012
-			
+
 			/******************************** notifications ********************************/
 			'ntfopen'     : 'Открытие папки',
 			'ntffile'     : 'Открытие файла',
@@ -183,24 +183,24 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'October'     : 'Октябрь',
 			'November'    : 'Ноябрь',
 			'December'    : 'Декабрь',
-			'Sunday'      : 'Воскресенье', 
-			'Monday'      : 'Понедельник', 
-			'Tuesday'     : 'Вторник', 
-			'Wednesday'   : 'Среда', 
-			'Thursday'    : 'Четверг', 
-			'Friday'      : 'Пятница', 
+			'Sunday'      : 'Воскресенье',
+			'Monday'      : 'Понедельник',
+			'Tuesday'     : 'Вторник',
+			'Wednesday'   : 'Среда',
+			'Thursday'    : 'Четверг',
+			'Friday'      : 'Пятница',
 			'Saturday'    : 'Суббота',
-			'Sun'         : 'Вск', 
-			'Mon'         : 'Пнд', 
-			'Tue'         : 'Втр', 
-			'Wed'         : 'Срд', 
-			'Thu'         : 'Чтв', 
-			'Fri'         : 'Птн', 
+			'Sun'         : 'Вск',
+			'Mon'         : 'Пнд',
+			'Tue'         : 'Втр',
+			'Wed'         : 'Срд',
+			'Thu'         : 'Чтв',
+			'Fri'         : 'Птн',
 			'Sat'         : 'Сбт',
 
 			/******************************** sort variants ********************************/
-			'sortname'          : 'по имени', 
-			'sortkind'          : 'по типу', 
+			'sortname'          : 'по имени',
+			'sortkind'          : 'по типу',
 			'sortsize'          : 'по размеру',
 			'sortdate'          : 'по дате',
 			'sortFoldersFirst'  : 'Папки в начале',
@@ -227,7 +227,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'viewlist'        : 'В виде списка',
 			'viewicons'       : 'В виде иконок',
 			'places'          : 'Избранное',
-			'calc'            : 'вычисляю', 
+			'calc'            : 'вычисляю',
 			'path'            : 'Путь',
 			'aliasfor'        : 'Указывает на',
 			'locked'          : 'Защита',
@@ -238,7 +238,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'yes'             : 'да',
 			'no'              : 'нет',
 			'link'            : 'Ссылка',
-			'searcresult'     : 'Результаты поиска',  
+			'searcresult'     : 'Результаты поиска',
 			'selected'        : 'выбрано',
 			'about'           : 'О программе',
 			'shortcuts'       : 'Горячие клавиши',
@@ -282,7 +282,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'port'                : 'Порт', // added 18.04.2012
 			'user'                : 'Пользователь', // added 18.04.2012
 			'pass'                : 'Пароль', // added 18.04.2012
-			
+
 			/********************************** mimetypes **********************************/
 			'kindUnknown'     : 'Неизвестный',
 			'kindFolder'      : 'Папка',

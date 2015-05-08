@@ -6,7 +6,7 @@
  * Time: 13:26
  */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -15,7 +15,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class Controller
- * @package mihaildev\elfinder
+ * @package m00nk\elfinder
  * @property array $options
  */
 
@@ -39,11 +39,11 @@ class Controller extends BaseController{
                 $root = ['path' => $root];
 
             if(!isset($root['class']))
-                $root['class'] = 'mihaildev\elfinder\LocalPath';
+                $root['class'] = 'm00nk\elfinder\LocalPath';
 
             $root = Yii::createObject($root);
 
-            /** @var \mihaildev\elfinder\LocalPath $root*/
+            /** @var \m00nk\elfinder\LocalPath $root*/
 
             if($root->isAvailable())
                 $this->_options['roots'][] = $root->getRoot();

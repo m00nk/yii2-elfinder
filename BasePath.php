@@ -4,7 +4,7 @@
  * Time: 10:39
  */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 use Yii;
 use yii\base\Component as BaseComponent;
@@ -89,4 +89,4 @@ class BasePath extends BaseComponent{
 
 
 
-} 
+}

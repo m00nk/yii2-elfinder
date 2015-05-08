@@ -1,8 +1,8 @@
-if (typeof mihaildev == "undefined" || !mihaildev) {
-	var mihaildev = {};
+if (typeof m00nk == "undefined" || !m00nk) {
+	var m00nk = {};
 }
 
-mihaildev.elFinder = {
+m00nk.elFinder = {
 	openManager: function(options){
 		var params = "menubar=no,toolbar=no,location=no,directories=no,status=no,fullscreen=no";
 		if(options.width == 'auto'){

@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
 */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 use Yii;
@@ -19,7 +19,7 @@ use Yii;
 /**
  * Class PathController
  *
- * @package mihaildev\elfinder
+ * @package m00nk\elfinder
  */
 class PathController extends BaseController{
 	public $disabledCommands = ['netmount'];
@@ -49,7 +49,7 @@ class PathController extends BaseController{
 			$root = ['path' => $root];
 
 		if(!isset($root['class']))
-			$root['class'] = 'mihaildev\elfinder\LocalPath';
+			$root['class'] = 'm00nk\elfinder\LocalPath';
 
 		if(!empty($subPath)){
 			if(preg_match("/\./i", $subPath)){
@@ -64,7 +64,7 @@ class PathController extends BaseController{
 
 		$root = Yii::createObject($root);
 
-		/** @var \mihaildev\elfinder\LocalPath $root*/
+		/** @var \m00nk\elfinder\LocalPath $root*/
 
 		if($root->isAvailable())
 			$this->_options['roots'][] = $root->getRoot();
@@ -93,4 +93,4 @@ class PathController extends BaseController{
 		$options['url'] = Url::toRoute(['connect', 'path' => Yii::$app->request->getQueryParam('path', '')]);
 		return $options;
 	}
-} 
+}

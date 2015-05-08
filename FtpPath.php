@@ -11,12 +11,12 @@
  * file that was distributed with this source code.
 */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 /**
  * Class FtpPath
  *
- * @package mihaildev\elfinder
+ * @package m00nk\elfinder
  */
 class FtpPath extends BasePath{
 	public $driver = 'FTP';

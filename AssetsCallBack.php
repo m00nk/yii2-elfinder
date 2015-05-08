@@ -4,7 +4,7 @@
  * Time: 0:51
  */
 
-namespace mihaildev\elfinder;
+namespace m00nk\elfinder;
 
 
 use yii\web\AssetBundle;
@@ -22,4 +22,4 @@ class AssetsCallBack extends AssetBundle{
         $this->sourcePath = __DIR__."/assets";
         parent::init();
     }
-} 
+}
